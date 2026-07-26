@@ -64,6 +64,9 @@ The data spans August 2016 through August 2017.
 # The Main Report - Key Questions Answered
 <br>
 
+➤ How to Read This Report:
+BQ01, BQ02A, and BQ02B establish the structure of purchase paths — who converts in one session versus many, which channels close the sale, and what leads up to it. These sections do not carry a business recommendation on their own. BQ03 and BQ04 apply that structure to compute channel credit and test how sensitive it is to modeling choices — that's where the numbers become decision-relevant.
+
 ### BQ01 — What share of purchasing visitors converted in a single session versus multiple sessions?
 <br>
 
@@ -81,16 +84,16 @@ The data spans August 2016 through August 2017.
 - Session count to conversion ranges up to 138, but that's a magnitude outlier — it doesn't affect the single/multi label, since BQ01 only classifies 1 session vs. 2+.
 <br><br>
 
-**BQ02A — Which channel did they convert on?**
+### BQ02A — Which channel did they convert on?
 <br><br>
 
-**BQ02B — What touchpoints happened before each purchase?**
+### BQ02B — What touchpoints happened before each purchase?
 <br><br>
 
-**BQ03 — Under last-touch and linear attribution, how much transaction and revenue credit does each channel receive?**
+### BQ03 — Under last-touch and linear attribution, how much transaction and revenue credit does each channel receive?
 <br><br>
 
-**BQ04 — How does each channel's credit change between a 30-day window and full observed history (all sessions within the dataset period, not lifetime)?**
+### BQ04 — How does each channel's credit change between a 30-day window and full observed history (all sessions within the dataset period, not lifetime)?
 <br><br>
 
 
