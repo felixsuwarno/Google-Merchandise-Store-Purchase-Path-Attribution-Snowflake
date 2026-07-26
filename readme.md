@@ -21,8 +21,9 @@ Activity outside this period—including earlier sessions, earlier purchases, an
 ➤ **The Data:**
 
 A single anonymized GA360 sample warehouse holds visitor behavior across two staging tables :
-
+<br>
 **STG_SESSIONS** — one row per session (visit-level: channel, device, country, revenue flag)
+<br>
 **STG_HITS** — one row per hit (page-level: actions, transactions, revenue)
 
 The data spans August 2016 through August 2017.
