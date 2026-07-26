@@ -6,7 +6,7 @@ Single vs Multi-Session Purchases, Converting-Channel Attribution, Interpurchase
 
 <br><br>
 
-➤ Note on Scope — Read This First :<br>
+➤ **Note on Scope — Read This First :**<br>
 
 The GA360 sample covers a fixed window (August 2016 through August 2017). A visitor's earliest observed session is only their first session inside that window, not their first-ever visit. Cookies that predate the window are invisible.
 
@@ -22,8 +22,8 @@ Dashvio treats those smaller questions as one connected problem.
 
 A single anonymized GA360 sample warehouse holds visitor behavior across two staging tables :
 
-STG_SESSIONS — one row per session (visit-level: channel, device, country, revenue flag)
-STG_HITS — one row per hit (page-level: actions, transactions, revenue)
+**STG_SESSIONS** — one row per session (visit-level: channel, device, country, revenue flag)
+**STG_HITS** — one row per hit (page-level: actions, transactions, revenue)
 
 The data spans August 2016 through August 2017.
 
@@ -35,7 +35,7 @@ The project is built in Snowflake. Two staging tables, three schema layers, one 
 
 <br><br>
 
-➤ Skills Demonstrated:
+➤ **Skills Demonstrated:**
 
 (SQL • Snowflake • Session-Level Analytics • Purchase-Path Reconstruction • Channel Attribution • Window Functions • Interpurchase Windowing • Returning-Customer Analysis • Data Quality Validation • Honest Scope Framing) <br><br>
 
