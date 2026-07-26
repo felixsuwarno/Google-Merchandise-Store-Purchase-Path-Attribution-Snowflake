@@ -14,7 +14,7 @@ This project therefore does not claim to measure true customer acquisition or li
 
 <br><br>
 
-➤ Project Purpose :<br>
+➤ **Project Purpose :**<br>
 
 Marketing attribution is usually sold as one clean number — "this channel drove the sale." Real session data does not cooperate. A visitor arrives on one channel, leaves, comes back on another, browses, buys, then comes back weeks later and buys again. The question "which channel gets credit" hides several smaller questions underneath it.
 
