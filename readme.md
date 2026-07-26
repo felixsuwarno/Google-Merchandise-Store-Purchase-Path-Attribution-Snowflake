@@ -38,8 +38,10 @@ The data spans August 2016 through August 2017.
 
 ➤ **Core Business Questions:**
 
-**PURCHASE BEHAVIOR** <br> 
-**BQ01** — What share of purchasing visitors converted in a single session versus multiple sessions? <br>
+**PURCHASE BEHAVIOR** 
+<br> 
+**BQ01** — What share of purchasing visitors converted in a single session versus multiple sessions? 
+<br>
 
 **CHANNEL ATTRIBUTION for Multip-session Visitors ONLY** 
 <br> 
@@ -47,6 +49,13 @@ The data spans August 2016 through August 2017.
 <br> 
 **BQ02B** — What touchpoints happened before each purchase? 
 <br>
+**Model sensitivity** 
+<br>
+**BQ03** — Under last-touch and linear attribution, how much transaction and revenue credit does each channel receive?
+<br>
+
+
+Lookback-window sensitivity
 
 <br>
 #The Main Report - Key Questions Answered
