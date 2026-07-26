@@ -61,7 +61,7 @@ The data spans August 2016 through August 2017.
 <br>
 <br>
 
-#The Main Report - Key Questions Answered
+# The Main Report - Key Questions Answered
 <br>
 
 **BQ01 — What share of purchasing visitors converted in a single session versus multiple sessions?**
