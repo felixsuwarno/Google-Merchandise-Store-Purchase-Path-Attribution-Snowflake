@@ -64,7 +64,7 @@ The data spans August 2016 through August 2017.
 # The Main Report - Key Questions Answered
 <br>
 
-# **BQ01 — What share of purchasing visitors converted in a single session versus multiple sessions?**
+## BQ01 — What share of purchasing visitors converted in a single session versus multiple sessions?
 <br><br>
 
 [BQ01B_SINGLE_VS_MULTI_SESSION_SUMMARY.csv](https://github.com/felixsuwarno/Marketing_Attribution-Dashvio-Purchase_Path_Analytics-Snowflake/blob/main/Data_Generated/BQ01B_SINGLE_VS_MULTI_SESSION_SUMMARY.csv)
