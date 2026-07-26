@@ -67,10 +67,17 @@ The data spans August 2016 through August 2017.
 **BQ01 — What share of purchasing visitors converted in a single session versus multiple sessions?**
 <br><br>
 
+[BQ01B_SINGLE_VS_MULTI_SESSION_SUMMARY.csv](https://github.com/felixsuwarno/Marketing_Attribution-Dashvio-Purchase_Path_Analytics-Snowflake/blob/main/Data_Generated/BQ01B_SINGLE_VS_MULTI_SESSION_SUMMARY.csv)
+
 | SESSION_COUNT_GROUP | REVENUE_SESSION_VISITORS | VISITOR_SHARE |
 |---|---|---|
 | MULTI_SESSION  | 5,210 | 52.1% |
 | SINGLE_SESSION | 4,786 | 47.9% |
+
+**Key Insights :**
+- Multi-session purchases are the majority (52.1%), meaning closing-channel and touchpoint analysis in BQ02 applies to most purchasers, not an edge case.
+- Session count to conversion ranges up to 138, but that's a magnitude outlier — it doesn't affect the single/multi label, since BQ01 only classifies 1 session vs. 2+.
+<br><br>
 
 **BQ02A — Which channel did they convert on?**
 <br><br>
