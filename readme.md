@@ -64,8 +64,10 @@ The data spans August 2016 through August 2017.
 # The Main Report - Key Questions Answered
 <br>
 
-➤ How to Read This Report:
-BQ01, BQ02A, and BQ02B establish the structure of purchase paths — who converts in one session versus many, which channels close the sale, and what leads up to it. These sections do not carry a business recommendation on their own. BQ03 and BQ04 apply that structure to compute channel credit and test how sensitive it is to modeling choices — that's where the numbers become decision-relevant.
+➤ How to Read This Report: <br>
+- **BQ01**, **BQ02A**, and **BQ02B** establish the structure of purchase paths — who converts in one session versus many, which channels close the sale, and what leads up to it. These sections do not carry a business recommendation on their own.
+- **BQ03** and **BQ04** apply that structure to compute channel credit and test how sensitive it is to modeling choices — that's where the numbers become decision-relevant.
+<br>
 
 ### BQ01 — What share of purchasing visitors converted in a single session versus multiple sessions?
 <br>
