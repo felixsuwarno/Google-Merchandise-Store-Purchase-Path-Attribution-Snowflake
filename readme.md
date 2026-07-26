@@ -24,11 +24,9 @@ A single anonymized GA360 sample warehouse holds visitor behavior across two sta
 <br>
 **STG_SESSIONS** — one row per session (visit-level: channel, device, country, revenue flag)
 <br>
-**STG_HITS** — one row per hit (page-level: actions, transactions, revenue)
+**STG_HITS**     — one row per hit (page-level: actions, transactions, revenue)
 
 The data spans August 2016 through August 2017.
-
-Each business question works through the same underlying problem — how do visitors actually reach a purchase — from a different angle.
 
 <br><br>
 
@@ -43,11 +41,11 @@ Each business question works through the same underlying problem — how do visi
 **PURCHASE BEHAVIOR** <br> 
 **BQ01** — What share of purchasing visitors converted in a single session versus multiple sessions? <br>
 
-**CHANNEL ATTRIBUTION** 
+**CHANNEL ATTRIBUTION for Multip-session Visitors ONLY** 
 <br> 
-**BQ02A** — For multi-session visitors, which channel did they convert on?
+**BQ02A** — Which channel did they convert on?
 <br> 
-**BQ02B** — For multi-session visitors, what touchpoints happened before each purchase, and how many times had they already purchased? 
+**BQ02B** — What touchpoints happened before each purchase? 
 <br>
 
 <br>
