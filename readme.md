@@ -67,6 +67,11 @@ The data spans August 2016 through August 2017.
 **BQ01 — What share of purchasing visitors converted in a single session versus multiple sessions?**
 <br><br>
 
+| SESSION_COUNT_GROUP | REVENUE_SESSION_VISITORS | VISITOR_SHARE |
+|---|---|---|
+| MULTI_SESSION  | 5,210 | 52.1% |
+| SINGLE_SESSION | 4,786 | 47.9% |
+
 **BQ02A — Which channel did they convert on?**
 <br><br>
 
