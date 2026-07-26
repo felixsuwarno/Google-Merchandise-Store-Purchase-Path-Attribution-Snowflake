@@ -41,34 +41,42 @@ The data spans August 2016 through August 2017.
 **PURCHASE BEHAVIOR** 
 <br> 
 **BQ01** — What share of purchasing visitors converted in a single session versus multiple sessions? 
-<br>
+<br><br>
 
-**CHANNEL ATTRIBUTION for Multip-session Visitors ONLY** 
+**CHANNEL ATTRIBUTION for Multi-session Visitors ONLY** 
 <br> 
 **BQ02A** — Which channel did they convert on?
 <br> 
 **BQ02B** — What touchpoints happened before each purchase? 
-<br>
+<br><br>
+
 **Model sensitivity** 
 <br>
 **BQ03** — Under last-touch and linear attribution, how much transaction and revenue credit does each channel receive?
+<br><br>
+
+**Lookback-window sensitivity**
+<br>
+**BQ04** — How does each channel's credit change between a 30-day window and full observed history (all sessions within the dataset period, not lifetime)?
+<br>
 <br>
 
-
-Lookback-window sensitivity
-
-<br>
 #The Main Report - Key Questions Answered
 <br>
+
 **BQ01 - What share of purchasing visitors converted in a single session versus multiple sessions?**
+<br>
 
+**BQ02A — Which channel did they convert on?**
+<br>
 
+**BQ02B — What touchpoints happened before each purchase?**
+<br>
 
+**BQ03 — Under last-touch and linear attribution, how much transaction and revenue credit does each channel receive?**
+<br>
 
-
-
-
-
+**BQ04 — How does each channel's credit change between a 30-day window and full observed history (all sessions within the dataset period, not lifetime)?**
 
 
 
