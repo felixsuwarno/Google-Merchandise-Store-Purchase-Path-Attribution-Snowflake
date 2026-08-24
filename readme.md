@@ -62,8 +62,8 @@ session data are included for inspection.
 <br>
 
 **CHANNEL & TOUCHPOINT ANALYSIS** <br>
-**BQ02A** — Across all purchases made by multi-session visitors, which channel closes the purchase session?<br>
-**BQ02B** — Which channels do multi-session visitors touch before they buy, and how often?
+**BQ02A** — Which channels do multi-session visitors purchase through?<br>
+**BQ02B** — Which channels do multi-session visitors touch before they make a purchase, and how often?
 <br>
 
 **ATTRIBUTION ANALYTICS** <br>
@@ -125,7 +125,7 @@ Query logic:
 
 ---
 
-### BQ02A - Across all purchases made by multi-session visitors, which channel closes the purchase session?
+### BQ02A - Which channels do multi-session visitors purchase through?
 
 <br>
 
@@ -163,7 +163,7 @@ Query logic:
 
 <br><br>
 
-### BQ02B - Which channels do multi-session visitors touch before they buy, and how often?
+### BQ02B - Which channels do multi-session visitors touch before they make a purchase, and how often?
 
 <br>
 
