@@ -109,6 +109,12 @@ Query logic:
 
 <br>
 
+<p align="left">
+  <img src="charts/BQ01.png" width="50%">
+</p>
+
+<br>
+
 **Key Insights**
 - Out of 9,996 purchasing visitors, 52.1% (5,210 visitors) had more than one observed session before reaching their first observed purchase. 47.9% (4,786 visitors) reached their first observed purchase in their first observed session.
 - This measures sessions up to that first observed purchase only. A visitor labeled SINGLE_SESSION here can still have made later purchases in later sessions — BQ01 doesn't track that; it only labels the path to the first one.
