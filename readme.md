@@ -176,7 +176,7 @@ Query logic:
 
 <p align="left">
   <b>
-    <a href="Data_Generated/BBQ02B_MULTI_SESSION_PRIOR_TOUCHPOINTS_SUMMARY.csv">
+    <a href="Data_Generated/BQ02B_MULTI_SESSION_PRIOR_TOUCHPOINTS_SUMMARY.csv">
       Download CSV: BQ02B Prior Touchpoint Channel Summary
     </a>
   </b>
