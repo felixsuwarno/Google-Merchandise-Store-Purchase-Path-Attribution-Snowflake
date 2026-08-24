@@ -18,13 +18,14 @@ End-to-end purchase-path and channel attribution project analyzing the public Go
 
 An **attribution project** on this dataset has one problem to solve before any SQL gets written: the dataset only covers twelve months. A visitor's earliest session inside that window is not necessarily their first-ever visit to the store — the window is left-censored. Because the dataset begins in August 2016, it cannot identify a visitor's true first-ever touch. A first-touch model could only be described as first observed touch within the available period — which is a different, weaker claim than true first-touch attribution.
 
-Dashvio works through three connected questions built on GA360's session-grain data :
-- **STG_SESSIONS**, one row per session, and
-- **STG_HITS**, one row per hit — not yet used, since every question here operates at session grain.
+Dashvio works through three connected layers built on GA360's session-grain data :
 
-**BQ01** asks how many sessions a purchasing visitor needed to reach their first observed purchase.<br><br>
-**BQ02** asks which channel closes purchase sessions for multi-session visitors, and which channels they touch beforehand.<br><br>
-**BQ03** compares how last-touch and linear attribution allocate transaction and revenue credit across channels on multi-channel purchase paths.<br><br>
+STG_SESSIONS, one row per session, and
+STG_HITS, one row per hit — not yet used, since every question here operates at session grain.
+
+BQ01 sits at the purchase-behavior layer — how many sessions it took a visitor to reach a purchase in the first place.<br><br> BQ02 sits at the channel layer — where those purchase paths actually go, both at the closing session and in the sessions leading up to it.<br><br> BQ03 sits at the attribution layer — once a path is built, how the credit for that purchase splits across the channels in it, under two different allocation rules.<br><br>
+
+BQ02 depends on BQ01: both BQ02A and BQ02B filter to visitors BQ01A already labeled MULTI_SESSION before doing anything else. BQ03 is built independently, straight from STG_SESSIONS — it doesn't read BQ01 or BQ02's output — but it answers the same kind of question at a finer grain: not just which channel closes a purchase, but how credit for that purchase splits across every channel in the path.
 
 Each table states its grain. Every filter has a reason a business reader can trace back to the question it answers.
 
