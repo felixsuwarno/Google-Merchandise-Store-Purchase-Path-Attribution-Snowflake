@@ -202,14 +202,13 @@ Query logic:
 
 #### Business Implications for BQ01 + BQ02
 
-Referral shows the largest gap between its share of closing sessions (53.5%) and its share of prior touchpoints (45.4%) among the three leading channels — an 8.1-point difference. Organic Search and Direct move the other way, with a larger share of prior touchpoints than of closes. This is a compositional pattern, not a conversion rate — the two percentages come from different denominators, so it doesn't show that Referral converts more often than it gets browsed.
-
-Multi-session visitors had more than one observed session before their first observed purchase for 52.1% of purchasing visitors, so the channels a visitor touches beforehand are relevant for more than half the visitors in this dataset.
+- Referral's closing share (53.5%) is 8.1 points higher than its prior-touchpoint share (45.4%). Organic Search and Direct show the reverse gap — larger touchpoint share than closing share. Different denominators, not a conversion rate.
+- 52.1% of purchasing visitors had more than one session before their first observed purchase — prior touchpoints matter for over half of buyers.
 
 Actions:
 
-- **If source and medium were retained in the staged data, compare Referral's closing-session share against its prior-touchpoint share at that more granular level** — this would narrow down where the gap sits, not prove what causes it.
-- **Treat single-session and multi-session purchasers as two behavior groups with different observed patterns going forward** — BQ01 shows they're close to a 50/50 split, so neither one is the default case.
+- **If source/medium was retained in staging, break Referral's gap down at that level.**
+- **Treat single-session and multi-session as separate behavior groups, not one default** — the split is close to 50/50.
 
 <br><br>
 
