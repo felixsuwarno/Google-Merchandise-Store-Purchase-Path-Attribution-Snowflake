@@ -10,7 +10,7 @@ WIP : August 24 2026
 *Developed under the working codename "Dashvio" — SQL comments and internal notes from development may still reference that name.*
 
 <br><br>
-End-to-end e-commerce analytics project analyzing the public Google Analytics 360 sample dataset from the Google Merchandise Store (Aug 2016–Aug 2017). The analysis covers purchase-path construction, channel touchpoint behavior, and a last-touch vs. linear attribution comparison — built entirely in Snowflake using a **RAW** → **STAGING** → **ANALYTICS** architecture.
+End-to-end purchase-path and channel attribution project analyzing the public Google Analytics 360 sample dataset from the Google Merchandise Store (Aug 2016–Aug 2017).
 
 <br><br>
 
