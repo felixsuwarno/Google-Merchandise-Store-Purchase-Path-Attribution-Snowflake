@@ -34,6 +34,24 @@ Each table states its grain. Every filter has a reason a business reader can tra
 (SQL • Snowflake • Purchase-Path Construction • Window Functions (ROW_NUMBER, LAG) • Multi-Touch Attribution • CTE Pipeline Design • Revenue Conservation Validation • Scope-Honest Analytical Framing)
 <br><br>
 
+## Raw Data
+
+The complete raw export is not stored in this repository because it exceeds
+GitHub's file-size limits.
+
+Source:
+`bigquery-public-data.google_analytics_sample.ga_sessions_*`
+
+Date range:
+2016-08-01 through 2017-08-01
+
+This is a public Google Analytics 360 sample dataset from the Google
+Merchandise Store. The SQL used to select, transform, and validate the data is
+included in this repository. Small analytical outputs and a sample of the
+session data are included for inspection.
+
+<br><br>
+
 ## Core Business Questions :
 
 **PURCHASE BEHAVIOR** <br>
@@ -246,9 +264,6 @@ Query logic:
 #### Business Implications for BQ03
 
 BQ03 provides attributed revenue under two allocation rules. It cannot calculate ROAS because channel spend is not available. Even with cost data, ROAS should only be calculated for channels whose costs can be mapped consistently to the same channel definitions used in this analysis.
-
-
-
 
 
 
