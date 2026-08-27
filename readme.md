@@ -3,18 +3,25 @@ WIP : August 24 2026
 
 **Multi-Session Purchase Behavior, Converting-Channel Frequency, Prior-Touchpoint Channels, and Last-Touch vs. Linear Attribution Credit**
 
-<br><br>
+<br>
 *Independent portfolio analysis using obfuscated Google Analytics 360 sample data from the Google Merchandise Store, accessed through BigQuery Public Datasets.*
 
-<br><br>
+<br>
 *Developed under the working codename "Dashvio" — SQL comments and internal notes from development may still reference that name.*
 
-<br><br>
+<br>
 This is an End-to-end purchase-path and channel attribution project analyzing the public Google Analytics 360 sample dataset from the Google Merchandise Store (Aug 2016–Aug 2017).
 
 <br><br>
 
 ➤ **Project Purpose :**<br>
+
+This project analyzes how purchasing visitors on the Google Merchandise Store reach a transaction, and how credit for that transaction splits across marketing channels under two attribution models. It uses the public GA360 e-commerce dataset (Aug 2016–Aug 2017), accessed via BigQuery Public Datasets and rebuilt in Snowflake.
+
+
+
+
+➤ **Dataset & Structure Overview :**<br>
 
 An **attribution project** on this dataset has one thing to note before any SQL gets written: the dataset only covers twelve months. A visitor's earliest session inside that window is not necessarily their first-ever visit to the store — the window is left-censored. Because the dataset begins in August 2016, it cannot identify a visitor's true first-ever touch. A first-touch model could only be described as first observed touch within the available period — which is a different, weaker claim than true first-touch attribution.
 
