@@ -218,10 +218,12 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ03A_PURCHASE_PATHS.sql">
-      BQ03A_PURCHASE_PATHS.sql - For every purchase a visitor made, assemble the sessions that belong to that purchase's path: from the visitor's previous purchase (or the start of their observed history) up to and including the current purchase
+      BQ03A_PURCHASE_PATHS.sql 
     </a>
   </b>
 </p>
+For every purchase a visitor made, assemble the sessions that belong to that purchase's path: from the visitor's previous purchase (or the start of their observed history) up to and including the current purchase
+<br><br>
 
 <p align="left">
   <b>
