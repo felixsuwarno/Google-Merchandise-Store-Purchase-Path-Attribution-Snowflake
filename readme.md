@@ -280,7 +280,7 @@ BQ01 and BQ02 answer questions about purchase behavior — how many sessions pre
 
 BQ03 is a different kind of output. Assigning credit to channels produces a quantity, not a conclusion. Referral holding $87,514 under linear and $139,922 under last-touch describes where each allocation rule places revenue; it does not say which channel deserves more budget. That decision requires channel spend, campaign objectives, and margin — none of which exist in the GA360 dataset, and most of which sit outside an attribution model entirely.
 
-Everything here is one input to a budget-prioritization decision, not the decision itself. Treating attributed revenue as a recommendation would overstate what the data supports.
+The marketing department would need channel spend, campaign objectives, and margin to decide budget priority. The GA360 dataset contains none of those. BQ03C supplies the credited-revenue figure that a budget decision would use alongside them, and nothing beyond that.
 
 
 
