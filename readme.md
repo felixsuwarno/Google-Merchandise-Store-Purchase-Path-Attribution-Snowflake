@@ -181,12 +181,13 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ02B_PRIOR_TOUCHPOINT_CHANNEL_SUMMARY.sql">
-      BQ02B_PRIOR_TOUCHPOINT_CHANNEL_SUMMARY.sql - For each multi-session purchase, look back at the sessions between it and the visitor's previous purchase (or the start of their observed history, for a first purchase), then count those prior sessions by channel
+      BQ02B_PRIOR_TOUCHPOINT_CHANNEL_SUMMARY.sql
     </a>
   </b>
 </p>
+For each multi-session purchase, look back at the sessions between it and the visitor's previous purchase (or the start of their observed history, for a first purchase), then count those prior sessions by channel
 
-<br>
+<br><br>
 
 **Chart**
 <p align="left">
