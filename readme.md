@@ -242,7 +242,14 @@ Drop paths that touched only one distinct channel, since last-touch and linear a
   </b>
 </p>
 
-BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql - Sum both credit types by channel
+<p align="left">
+  <b>
+    <a href="SQL/BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql">
+      BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql
+    </a>
+  </b>
+</p>
+Sum both credit types by channel
 <br><br>
 
 **Chart**
@@ -257,15 +264,16 @@ BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql - Sum both credit types by channel
     </a>
   </b>
 </p>
-
 <br>
 
 **Key Insights**
-- BQ03A assembles a path for every purchase — 28,341 path-touchpoint rows. Only 5,857 of those rows survive into BQ03B, belonging to 1,352 purchase sessions across 1,303 visitors — the paths where the two models had an actual choice to make.
-- Both models pay out the same total money on those surviving purchases: linear and last-touch each total $247,852.46 in revenue credit. Transaction credits match too — last-touch totals exactly 1,414; linear totals 1,413.999773, a difference from stored decimal precision, not missing credit.
-- **Referral, Direct, and Organic Search** have the largest absolute differences in revenue credit between the two models: Referral's last-touch total is $52,408 higher than its linear total; Direct's linear total is $33,210 higher than its last-touch total; Organic Search's linear total is $25,574 higher than its last-touch total. This shows the attribution rule materially changes how revenue is distributed among these three channels — it does not show how many purchases a channel assisted, its causal effect, or its economic value.
-- Display's two models move in opposite directions depending on the measure — linear assigns it more transaction credit than last-touch (68.58 vs. 47), but less revenue credit ($12,503 vs. $18,953). Purchase value, not just purchase count, affects which model gives a channel more revenue credit, which is why "assists more" or "closes more" isn't a safe read of these numbers on its own.
-- Linear attribution also gives credit to the closing session itself. Under this project's inclusive path boundary, a repeat buyer's purchase session is the closing touchpoint of its own path and the opening touchpoint of the next one, so it can receive linear credit twice. Some of the gap between linear and last-touch totals comes from that path-construction rule, not only from pre-purchase browsing behavior.
+- Referral, Organic Search, and Direct rank first, second, and third under both models, and are the three channels whose credited revenue changes materially depending on which model is applied.
+  - Referral        : $87,514 linear, $139,922 last-touch
+  - Organic Search  : $70,934 linear, $45,360 last-touch
+  - Direct          : $57,933 linear, $24,724 last-touch
+- Paid Search and Display trade fourth and fifth place depending on the model. Paid Search is fourth under linear ($17,023 vs $12,503); Display is fourth under last-touch ($18,953 vs $16,189).
+- Social, Affiliates, and (Other) are negligible under both models, none exceeding $2,700.
+- Credit totals cover multi-channel purchase paths only, observed between 2016-08-01 and 2017-08-01. Single-channel paths were removed in BQ03B.
 
 <br>
 
