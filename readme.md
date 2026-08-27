@@ -20,9 +20,9 @@ This project analyzes how purchasing visitors on the Google Merchandise Store re
 
 An **attribution project** on this dataset has one thing to note before any SQL gets written: the dataset only covers twelve months. A visitor's earliest session inside that window is not necessarily their first-ever visit to the store — the window is left-censored. Because the dataset begins in August 2016, it cannot identify a visitor's true first-ever touch. A first-touch model could only be described as first observed touch within the available period — which is a different, weaker claim than true first-touch attribution.
 
-Dashvio works through three connected layers built on GA360's session-grain data :
-- **STG_SESSIONS**, one row per session, and
-- **STG_HITS**, one row per hit — not yet used, since every question here operates at session grain.
+Dashvio is built on GA360's session-grain data, stored in **STG_SESSIONS** , where one row presents one session ( or one visit ).
+
+On top of that, the project works through three connected layers:
 
 **BQ01** sits at the purchase-behavior layer — how many sessions it took a visitor to reach a purchase in the first place.<br><br>
 **BQ02** sits at the channel layer — where those purchase paths actually go, both at the closing session and in the sessions leading up to it.<br><br>
