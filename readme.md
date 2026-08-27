@@ -270,9 +270,17 @@ Sum both credit types by channel
 
 <br>
 
-#### Business Implications for BQ03
+---
 
-BQ03 provides attributed revenue under two allocation rules. It cannot calculate ROAS because channel spend is not available. Even with cost data, ROAS should only be calculated for channels whose costs can be mapped consistently to the same channel definitions used in this analysis.
+## Conclusion
+
+This project was built to study multi-touch attribution against a real dataset rather than a synthetic one, using the public GA360 sample from the Google Merchandise Store.
+
+BQ01 and BQ02 answer questions about purchase behavior — how many sessions precede a purchase, which channels close purchases, and which channels appear before them. Those questions resolve into facts about how visitors reach a purchase.
+
+BQ03 is a different kind of output. Assigning credit to channels produces a quantity, not a conclusion. Referral holding $87,514 under linear and $139,922 under last-touch describes where each allocation rule places revenue; it does not say which channel deserves more budget. That decision requires channel spend, campaign objectives, and margin — none of which exist in the GA360 dataset, and most of which sit outside an attribution model entirely.
+
+Everything here is one input to a budget-prioritization decision, not the decision itself. Treating attributed revenue as a recommendation would overstate what the data supports.
 
 
 
