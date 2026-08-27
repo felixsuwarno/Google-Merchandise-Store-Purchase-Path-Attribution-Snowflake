@@ -226,20 +226,22 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ03B_PATH_CREDIT_ASSIGNED.sql">
-      BQ03B_PATH_CREDIT_ASSIGNED.sql - Drop paths that touched only one distinct channel, since last-touch and linear are forced to agree on those. On the paths that remain, assign linear credit (an equal share of the purchase to every session in the path) and last-touch credit (the full purchase to the closing session, zero to the rest)
+      BQ03B_PATH_CREDIT_ASSIGNED.sql 
     </a>
   </b>
 </p>
+Drop paths that touched only one distinct channel, since last-touch and linear are forced to agree on those. On the paths that remain, assign linear credit (an equal share of the purchase to every session in the path) and last-touch credit (the full purchase to the closing session, zero to the rest)
+<br><br>
 
 <p align="left">
   <b>
     <a href="SQL/BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql">
-      BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql - Sum both credit types by channel
     </a>
   </b>
 </p>
 
-<br>
+BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql - Sum both credit types by channel
+<br><br>
 
 **Chart**
 <p align="left">
