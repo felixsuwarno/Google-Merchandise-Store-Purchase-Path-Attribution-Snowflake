@@ -136,7 +136,7 @@ Group visitors by SINGLE_SESSION or MULTI_SESSION and calculate each group's sha
 
 ### BQ02A - Which channels do multi-session visitors purchase through?
 
-<br>
+<br><br>
 
 Query logic:
 <p align="left">
@@ -147,7 +147,7 @@ Query logic:
   </b>
 </p>
 
-<br>
+<br><br>
 
 **Chart**
 <p align="left">
