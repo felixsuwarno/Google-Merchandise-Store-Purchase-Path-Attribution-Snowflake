@@ -84,18 +84,22 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ01A_VISITOR_SESSION_COUNT_LABELED.sql">
-      BQ01A_VISITOR_SESSION_COUNT_LABELED.sql - Find each visitor's earliest observed revenue session, then count every session from their first observed session up to and including that revenue session
+      BQ01A_VISITOR_SESSION_COUNT_LABELED.sql
     </a>
   </b>
 </p>
+Find each visitor's earliest observed revenue session, then count every session from their first observed session up to and including that revenue session
+
+<br>
 
 <p align="left">
   <b>
     <a href="SQL/BQ01B_SINGLE_VS_MULTI_SESSION_SUMMARY.sql">
-      BQ01B_SINGLE_VS_MULTI_SESSION_SUMMARY.sql - Group visitors by SINGLE_SESSION or MULTI_SESSION and calculate each group's share of all purchasing visitors
+      BQ01B_SINGLE_VS_MULTI_SESSION_SUMMARY.sql 
     </a>
   </b>
 </p>
+Group visitors by SINGLE_SESSION or MULTI_SESSION and calculate each group's share of all purchasing visitors
 
 <br>
 
@@ -119,6 +123,8 @@ Query logic:
 - Multi  -session: 52.1% of purchasing visitors (5,210 people) browsed at least once before buying.
 - Single -session: 47.9% of purchasing visitors (4,786 people) bought on their first visit, no prior browsing.
 - The split is close, about 4 points apart, with slightly more visitors needing more than one visit to buy.
+
+<br>
 
 **Notes**
 - A visitor labeled single-session can still buy again later. BQ01 only tracks the path to their first purchase, not what happens after.
