@@ -238,13 +238,6 @@ Drop paths that touched only one distinct channel, since last-touch and linear a
 <p align="left">
   <b>
     <a href="SQL/BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql">
-    </a>
-  </b>
-</p>
-
-<p align="left">
-  <b>
-    <a href="SQL/BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql">
       BQ03C_CHANNEL_ATTRIBUTION_CREDIT.sql
     </a>
   </b>
