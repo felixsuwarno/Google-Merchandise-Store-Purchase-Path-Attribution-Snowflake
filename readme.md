@@ -90,7 +90,7 @@ Query logic:
 </p>
 Find each visitor's earliest observed revenue session, then count every session from their first observed session up to and including that revenue session
 
-<br>
+<br><br>
 
 <p align="left">
   <b>
