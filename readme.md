@@ -2,7 +2,7 @@ WIP : August 24 2026
 # Google Merchandise Store — Purchase-Path & Channel Attribution Analysis
 
 **Multi-Session Purchase Behavior, Converting-Channel Frequency, Prior-Touchpoint Channels, and Last-Touch vs. Linear Attribution Credit**
-
+<br><br>
 
 - Independent portfolio analysis using obfuscated Google Analytics 360 sample data from the Google Merchandise Store, accessed through BigQuery Public Datasets.
 - Developed under the working codename **"Dashvio"** — SQL comments and internal notes from development may still reference that name.
@@ -14,8 +14,7 @@ WIP : August 24 2026
 
 This project analyzes how purchasing visitors on the Google Merchandise Store reach a transaction, and how credit for that transaction splits across marketing channels under two attribution models. It uses the public GA360 e-commerce dataset (Aug 2016–Aug 2017), accessed via BigQuery Public Datasets and rebuilt in Snowflake.
 
-
-
+<br><br>
 
 ➤ **Dataset & Structure Overview :**<br>
 
