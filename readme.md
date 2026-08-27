@@ -142,12 +142,11 @@ Query logic:
 <p align="left">
   <b>
     <a href="SQL/BQ02A_MULTI_SESSION_CONVERTING_CHANNEL.sql">
-      BQ02A_MULTI_SESSION_CONVERTING_CHANNEL.sql - \\
+      BQ02A_MULTI_SESSION_CONVERTING_CHANNEL.sql
     </a>
   </b>
 </p>
 
-<br>
 Keep visitors labeled MULTI_SESSION from BQ01A, join them to their revenue session, and count revenue sessions by channel
 <br><br>
 
