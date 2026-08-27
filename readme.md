@@ -58,7 +58,7 @@ session data are included for inspection.
 ## Core Business Questions :
 
 **PURCHASE BEHAVIOR** <br>
-**BQ01** — How many sessions did purchasing visitors need to reach their first observed purchase — one, or more than one?
+**BQ01** — What share of purchasing visitors converted in a single session vs. multiple sessions?
 <br>
 
 **CHANNEL & TOUCHPOINT ANALYSIS** <br>
@@ -78,7 +78,7 @@ session data are included for inspection.
 
 <br>
 
-### BQ01 - How many sessions did purchasing visitors need to reach their first observed purchase?
+### BQ01 - What share of purchasing visitors converted in a single session vs multiple sessions ?
 
 Query logic:
 <p align="left">
@@ -116,10 +116,13 @@ Query logic:
 <br>
 
 **Key Insights**
-- Out of 9,996 purchasing visitors, 52.1% (5,210 visitors) had more than one observed session before reaching their first observed purchase. 47.9% (4,786 visitors) reached their first observed purchase in their first observed session.
-- This measures sessions up to that first observed purchase only. A visitor labeled SINGLE_SESSION here can still have made later purchases in later sessions — BQ01 doesn't track that; it only labels the path to the first one.
-- The split is close to even, with a lean toward multi-session — about a 4-point gap.
-- "First observed session" is not the same as a visitor's actual first-ever visit. The dataset only shows twelve months, so a visitor who first browsed before August 2016 would still show up here as if their observed history started later than it really did.
+- Multi  -session: 52.1% of purchasing visitors (5,210 people) browsed at least once before buying.
+- Single -session: 47.9% of purchasing visitors (4,786 people) bought on their first visit, no prior browsing.
+- The split is close, about 4 points apart, with slightly more visitors needing more than one visit to buy.
+
+**Notes**
+- A visitor labeled single-session can still buy again later. BQ01 only tracks the path to their first purchase, not what happens after.
+- "First observed session" isn't a visitor's true first-ever visit. The dataset only covers 12 months, so someone who first browsed before August 2016 still shows up here as if their history started later than it really did.
 
 <br><br>
 
