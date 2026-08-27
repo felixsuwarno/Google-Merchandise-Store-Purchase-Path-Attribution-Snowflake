@@ -101,7 +101,7 @@ Find each visitor's earliest observed revenue session, then count every session 
 </p>
 Group visitors by SINGLE_SESSION or MULTI_SESSION and calculate each group's share of all purchasing visitors
 
-<br>
+<br><br>
 
 <p align="left">
   <b>
