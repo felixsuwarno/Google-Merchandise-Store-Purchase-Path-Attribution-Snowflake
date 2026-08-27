@@ -166,10 +166,8 @@ Keep visitors labeled MULTI_SESSION from BQ01A, join them to their revenue sessi
 <br>
 
 **Key Insights**
-- 6,171 observed revenue sessions belong to visitors classified as multi-session. These include their earliest observed purchase session and any later observed purchase sessions within the dataset. Referral closes 53.5% of them (3,301 sessions).
-- Organic Search is second at 26.0% (1,602 sessions), Direct third at 14.6%.
-- The remaining four channels — Paid Search, Display, Social, Affiliates — combine for 6.0% of closes.
-- Referral and Organic Search together account for 79.45% of the observed purchase sessions belonging to multi-session visitors.
+- 6,171 observed revenue visits belong to multi-session visitors.
+- Referral's purchase-visit count (3,301) is more than the other six channels' purchase-visit counts combined (2,870).
 
 <br><br>
 
@@ -205,23 +203,10 @@ For each multi-session purchase, look back at the sessions between it and the vi
 <br>
 
 **Key Insights**
-- 14,714 prior browse touchpoints happen before multi-session purchases. Referral carries 45.4% of them (6,683 touchpoints), Organic Search 28.2%, Direct 19.1%. Those three channels carry 92.7% of all prior browsing.
-- Paid Search (3.5%), Display (3.0%), Social (0.8%), and Affiliates (0.1%) make up the rest.
-- Referral represents 53.5% of closing purchase sessions and 45.4% of prior browse touchpoints. This is an 8.1-percentage-point difference between two kinds of session activity. It does not measure Referral's conversion rate because the two percentages use different denominators — 6,171 purchase sessions versus 14,714 prior browse touchpoints.
+- 14,714 prior browse visits happen before multi-session purchases.
+- Referral's prior-browse count (6,683) is less than the other six channels' prior-browse counts combined (8,031).
 
 <br>
-
-#### Business Implications for BQ01 + BQ02
-
-- Referral's closing share (53.5%) is 8.1 points higher than its prior-touchpoint share (45.4%). Organic Search and Direct show the reverse gap — larger touchpoint share than closing share. Different denominators, not a conversion rate.
-- 52.1% of purchasing visitors had more than one session before their first observed purchase — prior touchpoints matter for over half of buyers.
-
-Actions:
-
-- **If source/medium was retained in staging, break Referral's gap down at that level.**
-- **Treat single-session and multi-session as separate behavior groups, not one default** — the split is close to 50/50.
-
-<br><br>
 
 ---
 
