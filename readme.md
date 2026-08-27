@@ -147,7 +147,7 @@ Query logic:
   </b>
 </p>
 
-<br><br>
+<br>
 Keep visitors labeled MULTI_SESSION from BQ01A, join them to their revenue session, and count revenue sessions by channel
 <br><br>
 
