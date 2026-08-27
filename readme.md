@@ -243,7 +243,7 @@ Query logic:
 
 **Chart**
 <p align="left">
-  <img src="Charts/BQ03.png" width="75%">
+  <img src="charts/BQ03.png" width="75%">
 </p>
 
 <p align="left">
