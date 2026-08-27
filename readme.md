@@ -10,13 +10,13 @@ WIP : August 24 2026
 *Developed under the working codename "Dashvio" — SQL comments and internal notes from development may still reference that name.*
 
 <br><br>
-End-to-end purchase-path and channel attribution project analyzing the public Google Analytics 360 sample dataset from the Google Merchandise Store (Aug 2016–Aug 2017).
+This is an End-to-end purchase-path and channel attribution project analyzing the public Google Analytics 360 sample dataset from the Google Merchandise Store (Aug 2016–Aug 2017).
 
 <br><br>
 
 ➤ **Project Purpose :**<br>
 
-An **attribution project** on this dataset has one problem to solve before any SQL gets written: the dataset only covers twelve months. A visitor's earliest session inside that window is not necessarily their first-ever visit to the store — the window is left-censored. Because the dataset begins in August 2016, it cannot identify a visitor's true first-ever touch. A first-touch model could only be described as first observed touch within the available period — which is a different, weaker claim than true first-touch attribution.
+An **attribution project** on this dataset has one thing to note before any SQL gets written: the dataset only covers twelve months. A visitor's earliest session inside that window is not necessarily their first-ever visit to the store — the window is left-censored. Because the dataset begins in August 2016, it cannot identify a visitor's true first-ever touch. A first-touch model could only be described as first observed touch within the available period — which is a different, weaker claim than true first-touch attribution.
 
 Dashvio works through three connected layers built on GA360's session-grain data :
 - **STG_SESSIONS**, one row per session, and
