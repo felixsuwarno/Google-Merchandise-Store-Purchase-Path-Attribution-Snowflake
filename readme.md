@@ -90,7 +90,7 @@ Query logic:
 </p>
 Find each visitor's earliest observed revenue session, then count every session from their first observed session up to and including that revenue session
 
-<br>
+<br><br>
 
 <p align="left">
   <b>
@@ -101,7 +101,7 @@ Find each visitor's earliest observed revenue session, then count every session 
 </p>
 Group visitors by SINGLE_SESSION or MULTI_SESSION and calculate each group's share of all purchasing visitors
 
-<br>
+<br><br>
 
 <p align="left">
   <b>
@@ -111,7 +111,7 @@ Group visitors by SINGLE_SESSION or MULTI_SESSION and calculate each group's sha
   </b>
 </p>
 
-<br>
+<br><br>
 
 <p align="left">
   <img src="charts/BQ01.png" width="50%">
