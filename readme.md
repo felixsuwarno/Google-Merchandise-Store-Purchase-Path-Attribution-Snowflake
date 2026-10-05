@@ -1,4 +1,3 @@
-WIP : August 24 2026
 # Google Merchandise Store — Purchase-Path & Channel Attribution Analysis
 
 **Multi-Session Purchase Behavior, Converting-Channel Frequency, Prior-Touchpoint Channels, and Last-Touch vs. Linear Attribution Credit**
